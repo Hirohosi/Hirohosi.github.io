@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - コミクリ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #fafafa;
+        }
+        header {
+            background: linear-gradient(135deg, #F97316 0%, #EF4444 100%);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .section h2 {
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+            color: #F97316;
+        }
+        .section p {
+            color: #555;
+        }
+        .section a {
+            color: #F97316;
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+        .faq-category {
+            margin-bottom: 32px;
+        }
+        .faq-category:last-child {
+            margin-bottom: 0;
+        }
+        .faq-category h3 {
+            font-size: 1.05rem;
+            margin-bottom: 16px;
+            color: #EF4444;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #FEE2E2;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eee;
+        }
+        .faq-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        .faq-item h4 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .faq-item p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .faq-item ul {
+            color: #666;
+            font-size: 0.95rem;
+            margin-top: 8px;
+            padding-left: 20px;
+        }
+        .faq-item li {
+            margin-bottom: 4px;
+        }
+        .contact-info {
+            background: #FFF7ED;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .contact-info p {
+            font-size: 0.95rem;
+        }
+        .note {
+            background: #f8f9fa;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .links-list {
+            list-style: none;
+        }
+        .links-list li {
+            margin-bottom: 12px;
+        }
+        .links-list a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #FFF7ED;
+            border-radius: 8px;
+            color: #F97316;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .links-list a:hover {
+            background: #FEE2E2;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>コミクリ サポート</h1>
+        <p>AI4コマ漫画生成アプリ</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <p>アプリに関するご質問、不具合のご報告、ご要望などがございましたら、以下のメールアドレスまでお気軽にお問い合わせください。</p>
+        </section>
+
+        <section class="section">
+            <h2>お問い合わせ先</h2>
+            <p>メール: <a href="mailto:h19970216h@gmail.com">h19970216h@gmail.com</a></p>
+            <div class="contact-info">
+                <p>お問い合わせの際は、以下の情報をお知らせください：</p>
+                <ul style="margin-top: 8px; padding-left: 20px; color: #666; font-size: 0.95rem;">
+                    <li>ご使用のデバイス（例: iPhone 15 Pro）</li>
+                    <li>iOSバージョン（例: iOS 18.0）</li>
+                    <li>アプリのバージョン（設定画面で確認可能）</li>
+                    <li>問題の詳細</li>
+                    <li>エラーメッセージ（あれば）</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>よくあるご質問</h2>
+
+            <div class="faq-category">
+                <h3>トークンについて</h3>
+                <div class="faq-item">
+                    <h4>Q. トークンとは何ですか？</h4>
+                    <p>トークンは、4コマ漫画を生成するために必要なアプリ内通貨です。通常品質の生成で4トークン、高品質の生成で20トークンを消費します。各コマの再生成は通常1トークン、高品質5トークンです。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. トークンはどこで購入できますか？</h4>
+                    <p>アプリ内の「トークン購入」画面から購入できます。ホーム画面右上のトークン残高をタップするか、設定画面からアクセスできます。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. トークンパックの種類と価格は？</h4>
+                    <p>以下の4種類から選べます：</p>
+                    <ul>
+                        <li>20トークン: ¥120</li>
+                        <li>60トークン: ¥360</li>
+                        <li>200トークン: ¥960</li>
+                        <li>600トークン: ¥2,400</li>
+                    </ul>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 購入したトークンに有効期限はありますか？</h4>
+                    <p>購入トークンには有効期限がありません。ただし、サブスクリプションで付与されるトークン（毎月300トークン）は、購入日を起点に毎月リセットされます（未使用分は繰り越されません）。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. トークンの返金はできますか？</h4>
+                    <p>購入したトークンの返金はできません。ただし、生成に失敗した場合は自動的にトークンが返還されます。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 初回インストール時にトークンはもらえますか？</h4>
+                    <p>はい。初回インストール時に4トークンが無料で付与されます。</p>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <h3>無料利用について</h3>
+                <div class="faq-item">
+                    <h4>Q. 無料でも使えますか？</h4>
+                    <p>はい。無料ユーザーは1日3回までAI生成機能を使用できます。ただし、広告が表示され、一部の画風や吹き出しスタイルはPro会員限定となります。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 1日の利用回数はいつリセットされますか？</h4>
+                    <p>アプリ起動時にリセットされます。</p>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <h3>Proプランについて</h3>
+                <div class="faq-item">
+                    <h4>Q. Proプランの特典は何ですか？</h4>
+                    <p>Proプランには以下の特典があります：</p>
+                    <ul>
+                        <li>毎月300トークン付与</li>
+                        <li>広告なし</li>
+                        <li>透かし（ウォーターマーク）なし</li>
+                        <li>全画風アンロック</li>
+                        <li>全吹き出しスタイル使用可能</li>
+                        <li>カスタムキャラクター無制限保存</li>
+                    </ul>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. Proプランの料金は？</h4>
+                    <p>2つのプランがあります：</p>
+                    <ul>
+                        <li>月額プラン: ¥840/月</li>
+                        <li>年額プラン: ¥6,000/年（月あたり¥500相当）</li>
+                    </ul>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. サブスクリプションの解約方法は？</h4>
+                    <p>以下の手順で解約できます：</p>
+                    <ul>
+                        <li>iPhoneの「設定」アプリを開く</li>
+                        <li>自分の名前（Apple ID）をタップ</li>
+                        <li>「サブスクリプション」をタップ</li>
+                        <li>コミクリを選択</li>
+                        <li>「サブスクリプションをキャンセル」をタップ</li>
+                    </ul>
+                    <p style="margin-top: 8px;">注意: 現在の期間終了の24時間前までにキャンセルしない場合、自動的に更新されます。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 解約後もトークンは使えますか？</h4>
+                    <p>はい。解約後も次回更新日までは、残りのサブスクリプショントークンとPro特典を利用できます。購入トークンは永久に使用可能です。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 機種変更した場合、購入は引き継げますか？</h4>
+                    <p>はい。同じApple IDでログインしていれば、「設定」→「購入を復元」から復元できます。</p>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <h3>生成について</h3>
+                <div class="faq-item">
+                    <h4>Q. 生成にはどのくらい時間がかかりますか？</h4>
+                    <p>通常30秒〜2分程度です。通信状況やサーバーの混雑状況により変動することがあります。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 生成した漫画の著作権は誰のものですか？</h4>
+                    <p>生成したコンテンツの著作権はユーザーに帰属します。個人利用・商用利用ともに自由にお使いいただけます。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 生成結果が気に入らない場合は？</h4>
+                    <p>各コマを個別に再生成できます（通常品質: 1トークン、高品質: 5トークン消費）。プレビュー画面から「再生成」ボタンをタップしてください。</p>
+                </div>
+            </div>
+
+            <div class="faq-category">
+                <h3>トラブルシューティング</h3>
+                <div class="faq-item">
+                    <h4>Q. アプリが起動しません</h4>
+                    <p>以下をお試しください：</p>
+                    <ul>
+                        <li>アプリを完全に終了して再起動</li>
+                        <li>デバイスを再起動</li>
+                        <li>アプリを最新バージョンに更新</li>
+                        <li>アプリを削除して再インストール（データは失われます）</li>
+                    </ul>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 生成中にエラーが発生しました</h4>
+                    <p>以下を確認してください：</p>
+                    <ul>
+                        <li>インターネット接続が安定しているか</li>
+                        <li>トークン残高が十分にあるか</li>
+                        <li>アプリが最新バージョンか</li>
+                    </ul>
+                    <p style="margin-top: 8px;">エラーが続く場合は、時間をおいて再度お試しください。トークンは自動的に返還されます。</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Q. 画像が保存できません</h4>
+                    <p>「設定」→「コミクリ」→「写真」で、写真へのアクセス権限が許可されているか確認してください。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>対応時間</h2>
+            <p class="note">お問い合わせへの返信には2〜3営業日いただく場合がございます。ご了承ください。</p>
+        </section>
+
+        <section class="section">
+            <h2>リンク</h2>
+            <ul class="links-list">
+                <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
+                <li><a href="terms-of-service.html">利用規約</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 コミクリ</p>
+    </footer>
+</body>
+</html>
