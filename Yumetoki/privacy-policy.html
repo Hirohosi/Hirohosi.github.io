@@ -129,7 +129,7 @@
         <a href="index.html" class="back-link">&larr; サポートページに戻る</a>
 
         <section class="section">
-            <p>最終更新日: 2026年2月4日</p>
+            <p>最終更新日: 2026年2月25日</p>
             <p>本プライバシーポリシーは、Yumetoki（夢解き）（以下「本アプリ」）におけるユーザー情報の取り扱いについて説明します。</p>
         </section>
 
@@ -175,12 +175,12 @@
                 </tr>
                 <tr>
                     <td>OpenAI</td>
-                    <td>夢の分析AI</td>
+                    <td>夢の分析AI（ユーザーが入力した夢のテキストが送信されます）</td>
                     <td><a href="https://openai.com/privacy">リンク</a></td>
                 </tr>
                 <tr>
                     <td>Replicate</td>
-                    <td>画像生成AI</td>
+                    <td>画像生成AI（AIが生成した英語の画像プロンプトが送信されます）</td>
                     <td><a href="https://replicate.com/privacy">リンク</a></td>
                 </tr>
                 <tr>
@@ -197,7 +197,23 @@
         </section>
 
         <section class="section">
-            <h2>4. データの保存</h2>
+            <h2>4. AIサービスへのデータ送信</h2>
+            <p>本アプリは夢の診断機能を提供するため、以下のとおり第三者AIサービスにデータを送信します：</p>
+            <ul>
+                <li><strong>夢の分析</strong>: ユーザーが入力した夢のテキストは、OpenAI API（GPT-4o-mini）に送信され、心理学的な夢分析が生成されます。</li>
+                <li><strong>画像生成</strong>: AIが夢の内容を要約して生成した英語の画像プロンプトは、Replicate API（flux-schnell）に送信され、夢のイメージ画像が生成されます。</li>
+            </ul>
+            <p>送信されたデータはリアルタイム処理のみに使用され、各サービスにおいて永続的に保存されることはありません。各第三者サービスは、それぞれのプライバシーポリシーに基づきデータを取り扱います。</p>
+        </section>
+
+        <section class="section">
+            <h2>5. ユーザーの同意</h2>
+            <p>本アプリでは、第三者AIサービスへデータを送信する前に、アプリ内でユーザーの明示的な同意を取得します。</p>
+            <p>初回の夢診断時に、送信されるデータの内容と送信先を明示した同意ダイアログを表示し、ユーザーが同意した場合のみデータの送信を行います。</p>
+        </section>
+
+        <section class="section">
+            <h2>6. データの保存</h2>
             <ul>
                 <li><strong>診断履歴</strong>: デバイス内に保存されます</li>
                 <li><strong>サーバー送信データ</strong>: 夢の内容は診断処理のためサーバーに送信されますが、処理後は保存されません</li>
@@ -206,7 +222,7 @@
         </section>
 
         <section class="section">
-            <h2>5. データの削除</h2>
+            <h2>7. データの削除</h2>
             <ul>
                 <li>アプリ内の「設定」→「すべての履歴を削除」から診断履歴を削除できます</li>
                 <li>アプリをアンインストールすると、デバイス内のすべてのデータが削除されます</li>
@@ -214,17 +230,17 @@
         </section>
 
         <section class="section">
-            <h2>6. 子どものプライバシー</h2>
+            <h2>8. 子どものプライバシー</h2>
             <p>本アプリは13歳未満のお子様を対象としていません。13歳未満の方は本アプリを使用しないでください。</p>
         </section>
 
         <section class="section">
-            <h2>7. プライバシーポリシーの変更</h2>
+            <h2>9. プライバシーポリシーの変更</h2>
             <p>本ポリシーは予告なく変更される場合があります。重要な変更がある場合は、アプリ内で通知します。</p>
         </section>
 
         <section class="section">
-            <h2>8. お問い合わせ</h2>
+            <h2>10. お問い合わせ</h2>
             <p>プライバシーに関するご質問は、以下までお問い合わせください：</p>
             <p>メール: <a href="mailto:h19970216h@gmail.com">h19970216h@gmail.com</a></p>
         </section>
@@ -233,7 +249,7 @@
 
         <section class="section">
             <h2>Privacy Policy</h2>
-            <p>Last updated: February 4, 2026</p>
+            <p>Last updated: February 25, 2026</p>
             <p>This Privacy Policy explains how Yumetoki handles user information.</p>
         </section>
 
@@ -277,12 +293,12 @@
                 </tr>
                 <tr>
                     <td>OpenAI</td>
-                    <td>Dream analysis AI</td>
+                    <td>Dream analysis AI (the dream text you enter is sent to this service)</td>
                     <td><a href="https://openai.com/privacy">Link</a></td>
                 </tr>
                 <tr>
                     <td>Replicate</td>
-                    <td>Image generation AI</td>
+                    <td>Image generation AI (AI-generated English image prompts are sent to this service)</td>
                     <td><a href="https://replicate.com/privacy">Link</a></td>
                 </tr>
                 <tr>
@@ -299,7 +315,23 @@
         </section>
 
         <section class="section">
-            <h2>4. Data Storage</h2>
+            <h2>4. Data Sent to AI Services</h2>
+            <p>This app sends data to third-party AI services to provide dream analysis features:</p>
+            <ul>
+                <li><strong>Dream Analysis</strong>: The dream text you enter is sent to the OpenAI API (GPT-4o-mini) to generate a psychological dream analysis.</li>
+                <li><strong>Image Generation</strong>: An English image prompt summarized by the AI from your dream content is sent to the Replicate API (flux-schnell) to generate a dream imagery.</li>
+            </ul>
+            <p>Data sent to these services is used only for real-time processing and is not permanently stored by them. Each third-party service handles data in accordance with their respective privacy policies.</p>
+        </section>
+
+        <section class="section">
+            <h2>5. User Consent</h2>
+            <p>This app obtains explicit user consent within the app before sending data to third-party AI services.</p>
+            <p>When you use the dream analysis feature for the first time, a consent dialog is displayed that clearly states what data will be sent and to which services. Data is only transmitted after you provide your consent.</p>
+        </section>
+
+        <section class="section">
+            <h2>6. Data Storage</h2>
             <ul>
                 <li><strong>Analysis history</strong>: Stored on your device</li>
                 <li><strong>Server-sent data</strong>: Dream content is sent to servers for processing but not stored after processing</li>
@@ -308,7 +340,7 @@
         </section>
 
         <section class="section">
-            <h2>5. Data Deletion</h2>
+            <h2>7. Data Deletion</h2>
             <ul>
                 <li>You can delete analysis history from "Settings" → "Delete All History"</li>
                 <li>Uninstalling the app deletes all data from your device</li>
@@ -316,17 +348,17 @@
         </section>
 
         <section class="section">
-            <h2>6. Children's Privacy</h2>
+            <h2>8. Children's Privacy</h2>
             <p>This app is not intended for children under 13. If you are under 13, please do not use this app.</p>
         </section>
 
         <section class="section">
-            <h2>7. Changes to This Policy</h2>
+            <h2>9. Changes to This Policy</h2>
             <p>This policy may be updated without notice. Significant changes will be notified within the app.</p>
         </section>
 
         <section class="section">
-            <h2>8. Contact Us</h2>
+            <h2>10. Contact Us</h2>
             <p>For privacy-related questions, please contact:</p>
             <p>Email: <a href="mailto:h19970216h@gmail.com">h19970216h@gmail.com</a></p>
         </section>
