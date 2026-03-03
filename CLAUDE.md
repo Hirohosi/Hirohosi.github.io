@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 概要
 
-GitHub Pages で公開される静的サイト。iOSアプリ（Kokorolog / Yumetoki / menpass）のサポートページ・法的ドキュメントをホスティングする。ビルドツール・パッケージマネージャー・テストフレームワークは存在しない。
+GitHub Pages で公開される静的サイト。iOSアプリ（Kokorolog / Yumetoki / menpass / digideto）のサポートページ・法的ドキュメントをホスティングする。ビルドツール・パッケージマネージャー・テストフレームワークは存在しない。
 
 ## デプロイ
 
@@ -35,6 +35,11 @@ menpass/            # メンパス（AI面接練習アプリ）
   privacy-policy.html
   terms-of-service.html
 
+digideto/           # ジデト（SNSスクリーンタイム管理アプリ）
+  index.html        # トップ（サポートページ）
+  privacy-policy.html
+  terms-of-service.html
+
 app-ads.txt         # Google Ad Publisher 設定
 DOCS/               # .gitignore済み。Markdown原稿（git管理外）
 ```
@@ -47,6 +52,7 @@ DOCS/               # .gitignore済み。Markdown原稿（git管理外）
 - kokorolog カラー: `#667eea` → `#764ba2`（紫グラデーション）
 - Yumetoki カラー: `#4F46E5` → `#7C3AED`（インディゴグラデーション）
 - menpass カラー: `#F97316` → `#EA580C`（オレンジグラデーション）
+- digideto カラー: `#10B981` → `#059669`（グリーングラデーション）
 
 ## 注意事項
 
