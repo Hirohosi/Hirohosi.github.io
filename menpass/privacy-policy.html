@@ -174,8 +174,8 @@
                     <td><a href="https://openai.com/privacy">リンク</a></td>
                 </tr>
                 <tr>
-                    <td>Anthropic</td>
-                    <td>回答評価AI（回答テキストが送信されます）</td>
+                    <td>Anthropic, PBC（米国サンフランシスコ）</td>
+                    <td>回答評価AI（回答テキスト等が送信されます）</td>
                     <td><a href="https://www.anthropic.com/privacy">リンク</a></td>
                 </tr>
                 <tr>
@@ -194,10 +194,19 @@
         <section class="section">
             <h2>4. AIサービスへのデータ送信</h2>
             <p>本アプリは面接練習の評価機能を提供するため、以下のとおり第三者AIサービスにデータを送信します：</p>
+            <p><strong>送信されるデータ：</strong></p>
             <ul>
-                <li><strong>回答評価</strong>: ユーザーが入力した面接回答のテキストは、OpenAI APIまたはAnthropic APIに送信され、AIによる評価・フィードバックが生成されます。</li>
+                <li>面接練習時の回答テキスト</li>
+                <li>自己紹介テキスト</li>
+                <li>音声入力から変換されたテキスト</li>
+                <li>面接タイプ・職種・業界等のプロフィール情報</li>
             </ul>
-            <p>送信されたデータはリアルタイム処理のみに使用され、各サービスにおいて永続的に保存されることはありません。各第三者サービスは、それぞれのプライバシーポリシーに基づきデータを取り扱います。</p>
+            <p><strong>送信先：</strong></p>
+            <ul>
+                <li><strong>OpenAI</strong>: OpenAI APIに送信され、AIによる評価・フィードバックが生成されます。</li>
+                <li><strong>Anthropic, PBC</strong>（米国カリフォルニア州サンフランシスコ所在）: Anthropic APIに送信され、AIによる評価・フィードバックが生成されます。</li>
+            </ul>
+            <p>送信されたデータはリアルタイム処理のみに使用され、各サービスにおいて永続的に保存されることはありません。また、送信されたデータがAIモデルのトレーニングに使用されることはありません。各第三者サービスは、それぞれのプライバシーポリシーに基づき、同等のデータ保護措置を講じています。</p>
         </section>
 
         <section class="section">
@@ -282,8 +291,8 @@
                     <td><a href="https://openai.com/privacy">Link</a></td>
                 </tr>
                 <tr>
-                    <td>Anthropic</td>
-                    <td>Response evaluation AI (your response text is sent to this service)</td>
+                    <td>Anthropic, PBC (San Francisco, USA)</td>
+                    <td>Response evaluation AI (your response text and other data is sent to this service)</td>
                     <td><a href="https://www.anthropic.com/privacy">Link</a></td>
                 </tr>
                 <tr>
@@ -302,10 +311,19 @@
         <section class="section">
             <h2>4. Data Sent to AI Services</h2>
             <p>This app sends data to third-party AI services to provide interview evaluation features:</p>
+            <p><strong>Data sent:</strong></p>
             <ul>
-                <li><strong>Response evaluation</strong>: The interview response text you enter is sent to the OpenAI API or Anthropic API to generate AI-powered evaluation and feedback.</li>
+                <li>Interview response text</li>
+                <li>Self-introduction text</li>
+                <li>Text converted from voice input</li>
+                <li>Profile information such as interview type, job category, and industry</li>
             </ul>
-            <p>Data sent to these services is used only for real-time processing and is not permanently stored by them. Each third-party service handles data in accordance with their respective privacy policies.</p>
+            <p><strong>Recipients:</strong></p>
+            <ul>
+                <li><strong>OpenAI</strong>: Data is sent to the OpenAI API to generate AI-powered evaluation and feedback.</li>
+                <li><strong>Anthropic, PBC</strong> (based in San Francisco, California, USA): Data is sent to the Anthropic API to generate AI-powered evaluation and feedback.</li>
+            </ul>
+            <p>Data sent to these services is used only for real-time processing and is not permanently stored by them. The data sent is not used for training AI models. Each third-party service provides equivalent data protection measures in accordance with their respective privacy policies.</p>
         </section>
 
         <section class="section">
